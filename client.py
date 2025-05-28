@@ -8,7 +8,7 @@ def get_data_from_server():
         if response.status_code == 200:
             print("서버로부터 성공적으로 응답을 받았습니다.")
             print("------------------------------------")
-            print("응답 내용 (Content):")
+            print("응답 내용:")
             print(response.text)
             print("------------------------------------")
         else:
