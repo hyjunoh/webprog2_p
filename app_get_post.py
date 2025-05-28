@@ -10,7 +10,7 @@ def greet():
     if request.method == 'POST':
         name = request.form['username']
     else: # GET 요청 처리
-        name = request.args.get('username', '손님') # username이 없으면 '손님'을 기본값으로
+        name = request.args.get('username', '손님')
     return f'안녕하세요, {name}님!'
 
 if __name__ == '__main__':
