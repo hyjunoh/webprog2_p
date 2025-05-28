@@ -1,3 +1,4 @@
+# app_get_post.py 서버에 접속하여 post method 이용
 import socket
 
 HOST = '220.149.232.226'
